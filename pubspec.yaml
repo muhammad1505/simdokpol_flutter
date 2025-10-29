@@ -84,6 +84,12 @@ flutter:
     - assets/images/
     - assets/icons/
     # - assets/fonts/ # uncomment jika Anda punya font kustom
+  # === SECURITY ===
+  crypto: ^3.0.3             # Untuk hashing password (SHA256)
+
+  # === UTILITY ===
+  shared_preferences: ^2.2.2 # Untuk menyimpan preferensi pengguna sederhana (mis. ID user login)
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
